@@ -1,4 +1,4 @@
-# lab 05 : HTML JavaScript DOM Programming 
+# lab 05 : HTML JavaScript DOM Programming
 
 หลังจากน.ศ. clone repo แล้ว ให้ทำตามขั้นตอนดังนี้
 
