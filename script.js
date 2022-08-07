@@ -59,7 +59,7 @@ function addTodo(title, completed) {
   }
   doneBtn.onclick = () => {
     if(span.style.textDecoration === ""){
-      span.style.textDecoration === "line-through";
+      span.style.textDecoration = "line-through";
     }
     else{
       span.style.textDecoration = ""
