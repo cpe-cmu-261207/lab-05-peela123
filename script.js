@@ -58,13 +58,23 @@ function addTodo(title, completed) {
     deleteBtn.style.display = "none"
   }
   doneBtn.onclick = () => {
-    if(span.style.textDecoration === ""){
-      span.style.textDecoration === "line-through";
-    }
-    else{
-      span.style.textDecoration = ""
+
+    // if(span.style.textDecoration === ""){
+    //   span.style.textDecoration = "line-through";
+    // }
+    // else{
+    //   span.style.textDecoration = ""
       
-    }
+    // }
+    if(completed === false) completed = true;
+    else if(completed === true) completed = false;
+
+
+
+    span.style.textDecoration = completed ? "line-through" : "";
+     
+    
+    
 
   }
   deleteBtn.onclick = () => {
